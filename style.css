@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #0A3871;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+textarea{
+    border: none;
+    color: var(--primary-color);
+    outline: none;
+        
+}
+textarea::placeholder{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.input-section small{
+    color: #67808E;
+}
+button{
+    height: 50px;
+    margin: 5px 0;
+}
+.footer-msg p{
+    color: #67808E;
+    font-size: .8rem;
+}
+.primary-btn{
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+}
+.secondary-btn{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 25px;
+}

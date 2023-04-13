@@ -5,10 +5,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 textarea{
+    height: 70%;
     border: none;
     color: var(--primary-color);
     outline: none;
-        
+    
 }
 textarea::placeholder{
     color: var(--primary-color);
